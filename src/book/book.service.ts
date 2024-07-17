@@ -26,6 +26,7 @@ export class BookService {
         return await this.bookesRepository.save(res);
 
         console.log(res)
+        console.log("hellooo");
     }
     
 
